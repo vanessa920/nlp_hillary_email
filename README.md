@@ -10,15 +10,15 @@ The documents were released by the State Department as PDFs. Kaggle cleaned and 
 
 ## NLP Methodology
 
-1. Text Preprocessing: Regex text cleaning, Tokenization, Lemmentization and text vectorization with TF-IDF [Text Pre-processing](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_email_text_preprocess.ipynb)
+1. [Text Pre-processing](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_email_text_preprocess.ipynb): Regex text cleaning, Tokenization, Lemmentization and text vectorization with TF-IDF 
 
-2. Topic Modeling: pyLDA, CorEx, K-Mean Cluster, Gensim Word2Vec [Topic Modeling](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_sent_nlp.ipynb)
+2. [Topic Modeling](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_sent_nlp.ipynb): Topic Modeling: pyLDA, CorEx, K-Mean Cluster, Gensim Word2Vec 
 
-3. Use SQLite create new tabless to explore Hillary's network [Hillary's Network](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_network.ipynb)
+3. [SQL Queries](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_network.ipynb): Use SQLite create new tabless to further explore Hillary's network 
 
-4. Further EDA to find three topics with pyLDA and Sentiment Analysis using NLTK Vader and TextBlob to conduct Sentiment Analysis [Topic Modeling and Sentiment Analysis Combined](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_email_EDA.ipynb
+4. [Combining All Together](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_email_EDA.ipynb): Focus on three topics with pyLDA and Sentiment Analysis using NLTK Vader and TextBlob to conduct Sentiment Analysis 
 
-5. Use Tableau for visualization and tell a good story [Tableau Story]: https://public.tableau.com/profile/vanessa.hu#!/vizhome/hilary_email_sentiment/EmailsSentbyHillary
+5. Use Tableau for visualization and tell a good story [Tableau Story](https://public.tableau.com/profile/vanessa.hu#!/vizhome/hilary_email_sentiment/EmailsSentbyHillary)
 
 
 ## Key Take Aways
