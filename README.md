@@ -18,9 +18,16 @@ The documents were released by the State Department as PDFs. Kaggle cleaned and 
 
 4. [Combining All Together](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_email_EDA.ipynb): Focus on three topics with pyLDA and Sentiment Analysis using NLTK Vader and TextBlob to conduct Sentiment Analysis 
 
-5. Use Tableau for visualization and tell a good story [Tableau Story](https://public.tableau.com/profile/vanessa.hu#!/vizhome/hilary_email_sentiment/EmailsSentbyHillary)
+5. [Tableau Story](https://public.tableau.com/profile/vanessa.hu#!/vizhome/hilary_email_sentiment/EmailsSentbyHillary): Use Tableau for visualization and tell a good story
+
 
 
 ## Key Take Aways
+
+* Negative sentiment score in emails actually indicates closer relationship
+* Including corpus documents to view when doing topic modeling could be really helpful just viewing the keywords
+* Tableau works really well with multi-dimentional visualization
+
+[Slides](https://github.com/vanessa920/nlp_hillary_email/blob/main/Project4_Hillary_email_nlp.pdf) [Tableau](https://public.tableau.com/profile/vanessa.hu#!/vizhome/hilary_email_sentiment/EmailsSentbyHillary)
 
 
