@@ -4,6 +4,20 @@ Throughout 2015, Hillary Clinton has been embroiled in controversy over the use 
 
 There have been a number of Freedom of Information lawsuits filed over the State Department's failure to fully release the emails sent and received on Clinton's private accounts. On Monday, August 31, the State Department released nearly 7,000 pages of Clinton's heavily redacted emails (its biggest release of emails to date).
 
-The documents were released by the State Department as PDFs. We've cleaned and normalized the released documents and are hosting them for public analysis. Kaggle's choice to host this dataset is not meant to express any particular political affiliation or intent.
+The documents were released by the State Department as PDFs. Kaggle cleaned and normalized the released documents and are hosting them for public analysis. [Kaggle Dataset](https://www.kaggle.com/kaggle/hillary-clinton-emails)
 
-["Kaggle Dataset"](https://www.kaggle.com/kaggle/hillary-clinton-emails)
+***
+
+## NLP Methodology
+
+1. Using SQLite to join tables and create new tabless from the datasource 
+
+2. Text Preprocessing 
+
+
+Use Tableau to tell a good story: https://public.tableau.com/profile/vanessa.hu#!/vizhome/hilary_email_sentiment/EmailsSentbyHillary
+
+
+## Key Take Aways
+
+
