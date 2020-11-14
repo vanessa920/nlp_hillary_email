@@ -28,7 +28,7 @@ The documents were released by the State Department as PDFs. Kaggle cleaned and 
 * Including corpus documents to view when doing topic modeling could be really helpful just viewing the keywords
 * Tableau works really well with multi-dimentional visualization
 
-[Presentation Slides](https://github.com/vanessa920/nlp_hillary_email/blob/main/Project4_Hillary_email_nlp.pdf)
+[Presentation Slides](https://github.com/vanessa920/nlp_hillary_email/blob/main/nlp_hillary_email.pdf)
 
 [Tableau Gallery](https://public.tableau.com/profile/vanessa.hu#!/vizhome/hilary_email_sentiment/EmailsSentbyHillary)
 
