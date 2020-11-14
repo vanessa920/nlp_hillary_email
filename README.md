@@ -4,18 +4,21 @@ Throughout 2015, Hillary Clinton has been embroiled in controversy over the use 
 
 There have been a number of Freedom of Information lawsuits filed over the State Department's failure to fully release the emails sent and received on Clinton's private accounts. On Monday, August 31, the State Department released nearly 7,000 pages of Clinton's heavily redacted emails (its biggest release of emails to date).
 
-The documents were released by the State Department as PDFs. Kaggle cleaned and normalized the released documents and are hosting them for public analysis. [Kaggle Dataset](https://www.kaggle.com/kaggle/hillary-clinton-emails)
+The documents were released by the State Department as PDFs. Kaggle cleaned and normalized the released documents and are hosting them for public analysis. I focused on the Emails that sent by Hillary Clinton. [Kaggle Dataset](https://www.kaggle.com/kaggle/hillary-clinton-emails)
 
 ***
 
 ## NLP Methodology
 
-1. Using SQLite to join tables and create new tabless from the datasource 
+1. Text Preprocessing: Regex text cleaning, Tokenization, Lemmentization and text vectorization with TF-IDF [Text Pre-processing](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_email_text_preprocess.ipynb)
 
-2. Text Preprocessing 
+2. Topic Modeling: pyLDA, CorEx, K-Mean Cluster, Gensim Word2Vec [Topic Modeling](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_sent_nlp.ipynb)
 
+3. Use SQLite create new tabless to explore Hillary's network [Hillary's Network](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_network.ipynb)
 
-Use Tableau to tell a good story: https://public.tableau.com/profile/vanessa.hu#!/vizhome/hilary_email_sentiment/EmailsSentbyHillary
+4. Further EDA to find three topics with pyLDA and Sentiment Analysis using NLTK Vader and TextBlob to conduct Sentiment Analysis [Topic Modeling and Sentiment Analysis Combined](https://github.com/vanessa920/nlp_hillary_email/blob/main/hillary_email_EDA.ipynb
+
+5. Use Tableau for visualization and tell a good story [Tableau Story]: https://public.tableau.com/profile/vanessa.hu#!/vizhome/hilary_email_sentiment/EmailsSentbyHillary
 
 
 ## Key Take Aways
